@@ -20,38 +20,40 @@
 
   <body>
     <!--header-->
-    <header class="header">
-      <div class="container main-nav">
-        <nav class="nav">
-          <a href="index.html" class="logo-fist"
-            >Web<span class="logo-second">Studio</span>
+    <header class="page-header">
+      <div class="page-container page-header__nav-main">
+        <nav class="page-header__nav">
+          <a href="index.html" class="page-header__logo"
+            >Web<span class="page-header__logo-second">Studio</span>
           </a>
 
-          <ul class="list-nav">
-            <li class="item">
-              <a href="./index.html " class="link">Студия</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html " class="site-nav__link">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link current"
+                >Портфолио</a
+              >
             </li>
-            <li class="item">
-              <a href="./index.html" class="link">Контакты</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="list-contacts">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">
-              <svg class="icon" width="16" height="12">
+        <ul class="site-contacts">
+          <li class="site-contacts__item">
+            <a href="mailto:info@devstudio.com" class="site-contacts__link">
+              <svg class="site-contacts__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link">
-              <svg class="icon" width="10" height="16">
+          <li class="site-contacts__item">
+            <a href="tel:+380961111111" class="site-contacts__link">
+              <svg class="site-contacts__icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -64,25 +66,25 @@
       <section class="portfolio-section">
         <div class="container">
           <ul class="filters">
-            <li class="item">
-              <button type="button" class="btn">Все</button>
+            <li class="filters-item">
+              <button type="button" class="filters-item__btn">Все</button>
             </li>
-            <li class="item">
-              <button type="button" class="btn">Веб-сайты</button>
+            <li class="filters-item">
+              <button type="button" class="filters-item__btn">Веб-сайты</button>
             </li>
-            <li class="item">
-              <button type="button" class="btn">Приложения</button>
+            <li class="filters-item">
+              <button type="button" class="filters-item__btn">Приложения</button>
             </li>
-            <li class="item">
-              <button type="button" class="btn">Дизайн</button>
+            <li class="filters-item">
+              <button type="button" class="filters-item__btn">Дизайн</button>
             </li>
-            <li class="item">
-              <button type="button" class="btn">Маркетинг</button>
+            <li class="filters-item">
+              <button type="button" class="filters-item__btn">Маркетинг</button>
             </li>
           </ul>
 
           <ul class="soft-list">
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img src="./images/laptop.jpg" width="370" alt="laptop" />
                 <div class="wrapper">
@@ -94,11 +96,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Технокряк</h3>
-                <p class="card-text">Веб-сайт</p>
+                <h3 class="soft-card__title">Технокряк</h3>
+                <p class="soft-card__text">Веб-сайт</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img src="./images/poster.jpg" width="370" alt="poster" />
                 <div class="wrapper">
@@ -110,11 +112,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Постер New Orlean vs Golden Star</h3>
-                <p class="card-text">Дизайн</p>
+                <h3 class="soft-card__title">Постер New Orlean vs Golden Star</h3>
+                <p class="soft-card__text">Дизайн</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img
                   src="./images/logo-restaurant.jpg"
@@ -130,11 +132,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Ресторан Seafood</h3>
-                <p class="card-text">Приложение</p>
+                <h3 class="soft-card__title">Ресторан Seafood</h3>
+                <p class="soft-card__text">Приложение</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img
                   src="./images/headphones.jpg"
@@ -150,11 +152,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Проект Prime</h3>
-                <p class="card-text">Маркетинг</p>
+                <h3 class="soft-card__title">Проект Prime</h3>
+                <p class="soft-card__text">Маркетинг</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img src="./images/box.jpg" width="370" alt="box" />
                 <div class="wrapper">
@@ -166,11 +168,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Проект Boxes</h3>
-                <p class="card-text">Приложение</p>
+                <h3 class="soft-card__title">Проект Boxes</h3>
+                <p class="soft-card__text">Приложение</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img src="./images/monoblock.jpg" width="370" alt="monoblock" />
                 <div class="wrapper">
@@ -182,11 +184,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Inspiration has no Borders</h3>
-                <p class="card-text">Веб-сайт</p>
+                <h3 class="soft-card__title">Inspiration has no Borders</h3>
+                <p class="soft-card__text">Веб-сайт</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img src="./images/book.jpg" width="370" alt="book" />
                 <div class="wrapper">
@@ -198,11 +200,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Издание Limited Edition Дизайн</h3>
-                <p class="card-text">Дизайн</p>
+                <h3 class="soft-card__title">Издание Limited Edition Дизайн</h3>
+                <p class="soft-card__text">Дизайн</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img src="./images/tag.jpg" width="370" alt="tag" />
                 <div class="wrapper">
@@ -214,11 +216,11 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Проект LAB</h3>
-                <p class="card-text">Маркетинг</p>
+                <h3 class="soft-card__title">Проект LAB</h3>
+                <p class="soft-card__text">Маркетинг</p>
               </div>
             </li>
-            <li class="item">
+            <li class="soft-list__item">
               <div class="description">
                 <img
                   src="./images/working-on-a-laptop.jpg"
@@ -234,8 +236,8 @@
                 </div>
               </div>
               <div class="soft-card">
-                <h3 class="card-name">Growing Business</h3>
-                <p class="card-text">Приложение</p>
+                <h3 class="soft-card__title">Growing Business</h3>
+                <p class="soft-card__text">Приложение</p>
               </div>
             </li>
           </ul>
@@ -243,71 +245,86 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="page-container footer-markup">
         <div class="info-footer">
           <div class="footer-logo">
-            <a href="index.htm" class="logo-third"
-              >Web<span class="logo-fourth">Studio</span>
+            <a href="index.html" class="footer-logo__one"
+              >Web<span class="footer-logo__two">Studio</span>
             </a>
           </div>
 
           <address class="address">
-            <ul>
-              <li>г. Киев, пр-т Леси Украинки, 26</li>
-              <li>
-                <a href="mailto:info@devstudio.com" class="link"
+            <ul class="address-list">
+              <li class="address-list__item">
+                г. Киев, пр-т Леси Украинки, 26
+              </li>
+              <li class="address-list__item">
+                <a href="mailto:info@devstudio.com" class="address-list__link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="item">
-                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              <li class="address-list__item">
+                <a href="tel:+380961111111" class="address-list__link"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
         </div>
         <section class="network">
-          <h3 class="network-name">присоединяйтесь</h3>
+          <h3 class="network-title">присоединяйтесь</h3>
           <ul class="network-list">
-            <li class="item">
-              <a href="https://www.instagram.com/" class="link">
-                <svg class="icon" width="20" height="20">
+            <li class="network-list__item">
+              <a href="https://www.instagram.com/" class="network-list__link">
+                <svg class="network-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="https://twitter.com/" class="link twitter">
-                <svg class="icon" width="20" height="20">
+            <li class="network-list__item">
+              <a href="https://twitter.com/" class="network-list__link">
+                <svg class="network-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="https://facebook.com/" class="link">
-                <svg class="icon" width="20" height="20">
+            <li class="network-list__item">
+              <a href="https://facebook.com/" class="network-list__link">
+                <svg class="network-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="https://linkedin.com/" class="link">
-                <svg class="icon" width="20" height="20">
+            <li class="network-list__item">
+              <a href="https://linkedin.com/" class="network-list__link">
+                <svg class="network-list__icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </section>
-          <form class="form-footer">
+        <form class="form-footer">
           <div class="footer-field">
-          <label for="mail">Подпишитесь на рассылку</label>
-            <input type="email" name="mail" id="mail" placeholder="E-mail" />
-              <button type="submit" class="footer-btn" >Подписаться
-                <svg class="icon" width="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-send"></use></svg>
-              </button>
+            <label for="mail" class="footer-field__label"
+              >Подпишитесь на рассылку</label
+            >
+            <input
+              class="footer-field__input"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="footer-field__btn">
+              Подписаться
+              <svg class="footer-field__icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
           </div>
-          </form>   
+        </form>
       </div>
     </footer>
   </body>
