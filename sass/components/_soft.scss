@@ -10,7 +10,7 @@
     margin-bottom: 30px;
     background: #ffffff;
     border: 1px solid #eeeeee;
-    &:nth-child(3n) {
+    &:nth-child( 3n ) {
         margin-right: 0;
     }
     &:nth-last-child(-n + 3) {
