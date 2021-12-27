@@ -10,7 +10,7 @@
     margin-bottom: 30px;
     background: #ffffff;
     border: 1px solid #eeeeee;
-    &:nth-child( 3 n ) {
+    &:nth-child( 3n ) {
         margin-right: 0;
     }
     &:nth-last-child(-n + 3) {
@@ -53,12 +53,12 @@
     display: block;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 370px;
+    height: 404px;
     opacity: 0;
     transform: translateY(100%);
     transition: transform 250ms $transition-timing-function,
-        opacity 250ms $transition-timing-function;
+        opacity 750ms $transition-timing-function;
     background-color: rgba(33, 150, 243, 0.9);
     .description:hover & {
         transform: translateY(0);
