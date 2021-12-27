@@ -5,6 +5,7 @@
     margin-left: 0;
 }
 .soft-list__item {
+    display: block;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
