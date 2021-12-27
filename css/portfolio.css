@@ -292,7 +292,7 @@ img {
   border: 1px solid #eeeeee;
 }
 
-.soft-list__item:nth-child(3n) {
+.soft-list__item:nth-child(3 n) {
   margin-right: 0;
 }
 
