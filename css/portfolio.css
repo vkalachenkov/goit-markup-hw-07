@@ -285,7 +285,6 @@ img {
 }
 
 .soft-list__item {
-  display: block;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -332,6 +331,7 @@ img {
 }
 
 .description {
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
