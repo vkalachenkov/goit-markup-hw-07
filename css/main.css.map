@@ -4,15 +4,15 @@
     "sources": [
         "../sass/main.scss",
         "../sass/utils/_variables.scss",
-        "../sass/components/_header.scss",
-        "../sass/components/_logo.scss",
-        "../sass/components/_hero.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_logo.scss",
+        "../sass/layout/_hero.scss",
         "../sass/components/_modal-windows.scss",
-        "../sass/components/_peculiarities.scss",
-        "../sass/components/_we-doing.scss",
-        "../sass/components/_our-team.scss",
-        "../sass/components/_clients.scss",
-        "../sass/components/_basement.scss"
+        "../sass/layout/_peculiarities.scss",
+        "../sass/layout/_we-doing.scss",
+        "../sass/layout/_our-team.scss",
+        "../sass/layout/_clients.scss",
+        "../sass/layout/_basement.scss"
     ],
     "names": [],
     "file": "main.css"

@@ -45,7 +45,6 @@
     color: $primary-text-color;
 }
 .description {
-    width: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -54,8 +53,8 @@
     display: block;
     top: 0;
     left: 0;
-    width: 370px;
-    height: 404px;
+    width: 100%;
+    height: 100%;
     opacity: 0;
     transform: translateY(100%);
     transition: transform 250ms $transition-timing-function,
@@ -65,7 +64,6 @@
         transform: translateY(0);
         opacity: 1;
     }
-
 }
 .description-info {
     position: absolute;
