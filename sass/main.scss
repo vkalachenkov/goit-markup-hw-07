@@ -1,4 +1,6 @@
 @import './utils/variables';
+@import './base/reset';
+@import './base/container.scss';
 @import './layout/header';
 @import './components/logo';
 @import './layout/hero';
